@@ -6,6 +6,7 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 ![Website](https://img.shields.io/website?down_color=red&down_message=failed&up_color=blue&up_message=online&url=https%3A%2F%2Fs95.ru)
+<img width="1094" height="319" alt="Group 1" src="https://github.com/user-attachments/assets/883edc82-8f24-477a-b4a2-fdcfb57d4268" />
 
 # Sat 9am 5km - run events system
 
