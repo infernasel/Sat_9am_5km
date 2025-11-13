@@ -284,15 +284,3 @@ If you encounter issues:
 
 ---
 
-## Project Roadmap
-
-- [ ] Mobile app integration
-- [ ] Real-time event updates via WebSockets
-- [ ] Advanced analytics dashboard
-- [ ] Social media integration
-- [ ] GraphQL API support
-
----
-
-**Last Updated**: November 13, 2025
-**Repository**: [infernasel/Sat_9am_5km](https://github.com/infernasel/Sat_9am_5km)
