@@ -16,15 +16,15 @@
 
 ### Key Features
 
-- 🏃 **Event Management** - Create and manage local running events
-- 📝 **User Registration** - Streamlined registration system for participants
-- 📊 **Results Tracking** - Track and display accurate race results
-- ⚡ **Performance Monitoring** - Real-time application and database performance metrics
-- 👨‍💼 **Admin Dashboard** - Comprehensive administrative control panel
-- 📧 **Email System** - Automated notifications and preview system
-- 🔌 **REST APIs** - Programmatic access to event data
-- 🐛 **Error Tracking** - Real-time bug monitoring via Rollbar
-- 💾 **File Management** - Centralized storage dashboard
+-  **Event Management** - Create and manage local running events
+-  **User Registration** - Streamlined registration system for participants
+-  **Results Tracking** - Track and display accurate race results
+-  **Performance Monitoring** - Real-time application and database performance metrics
+-  **Admin Dashboard** - Comprehensive administrative control panel
+-  **Email System** - Automated notifications and preview system
+-  **REST APIs** - Programmatic access to event data
+-  **Error Tracking** - Real-time bug monitoring via Rollbar
+-  **File Management** - Centralized storage dashboard
 
 ---
 
@@ -55,7 +55,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/infernasel/Sat_9am_5km.git
+   git clone https://github.com/vol1ura/Sat_9am_5km.git
    cd Sat_9am_5km
    ```
 
@@ -277,7 +277,7 @@ This project is licensed under the **GPLv3 License** - see the [LICENSE](http://
 
 If you encounter issues:
 
-1. **Check GitHub Issues**: [Open Issues](https://github.com/infernasel/Sat_9am_5km/issues)
+1. **Check GitHub Issues**: [Open Issues](https://github.com/vol1ura/Sat_9am_5km/issues)
 2. **Review Error Tracking**: [Rollbar Dashboard](https://app.rollbar.com/a/Urka/fix/items)
 3. **Check Server Status**: [UptimeRobot Monitor](https://dashboard.uptimerobot.com/monitors/797544445)
 4. **Documentation**: This README and inline code comments
