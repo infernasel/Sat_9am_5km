@@ -46,8 +46,8 @@
 }
 
 .how-it-works {
-  padding: 6rem 0;
-  background-color: #fff;
+  padding: 5.5rem 0;
+  background-color: #f6f7f8;
 
   .container {
     max-width: 1200px;
@@ -55,9 +55,11 @@
 
   h2 {
     color: $primary;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-align: center;
     position: relative;
-    padding-bottom: 1rem;
+    padding-bottom: 1.25rem;
 
     &::after {
       content: '';
@@ -65,26 +67,67 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-      width: 100px;
-      height: 3px;
+      width: 110px;
+      height: 4px;
       background: $primary;
+      border-radius: 4px;
     }
   }
 
   .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: visible;
+
+    .card-body {
+      padding: 2.25rem 1.5rem;
+      min-height: 210px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
     &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(38, 44, 82, 0.08) !important;
+    }
+  }
+
+  .icon-circle {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: $primary;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 8px 24px rgba(42, 41, 81, 0.08);
+  }
+
+  .card-title {
+    color: darken($primary, 8%);
+    margin-top: 0.75rem;
+    font-weight: 600;
+  }
+
+  .card-text {
+    color: #666;
+    margin-top: 0.5rem;
+  }
+
+  @include media(phoneScreen) {
+    .icon-circle {
+      width: 72px;
+      height: 72px;
     }
 
-    i {
-      transition: transform 0.3s ease;
-    }
-
-    &:hover i {
-      transform: scale(1.1);
+    .card-body {
+      min-height: auto;
+      padding: 1.25rem;
     }
   }
 }
@@ -188,8 +231,8 @@
 }
 
 .why-s95 {
-  padding: 6rem 0;
-  background-color: #f8f9fa;
+  padding: 5.5rem 0;
+  background-color: #f6f7f8;
 
   .container {
     max-width: 1200px;
@@ -197,9 +240,11 @@
 
   h2 {
     color: $primary;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-align: center;
     position: relative;
-    padding-bottom: 1rem;
+    padding-bottom: 1.25rem;
 
     &::after {
       content: '';
@@ -207,30 +252,62 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-      width: 100px;
-      height: 3px;
+      width: 110px;
+      height: 4px;
       background: $primary;
+      border-radius: 4px;
     }
   }
 
   .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 14px;
+    overflow: hidden;
+
+    .card-body {
+      padding: 2.25rem 1.5rem;
+      min-height: 260px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
     &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(38, 44, 82, 0.06) !important;
     }
 
     i {
-      transition: transform 0.3s ease;
       color: $primary;
+      transition: transform 0.25s ease;
     }
 
-    &:hover i {
-      transform: scale(1.1);
-    }
+    &:hover i { transform: scale(1.08); }
+  }
+
+  .icon-circle {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #fff;
+    color: $primary;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    box-shadow: 0 10px 30px rgba(38,44,82,0.06);
+    border: 1px solid rgba(42,41,81,0.06);
+  }
+
+  .card-title { font-weight: 700; margin-top: 0.6rem; }
+
+  .card-text { color: #666; margin-top: 0.5rem; }
+
+  @include media(phoneScreen) {
+    .icon-circle { width: 72px; height: 72px; }
+    .card-body { min-height: auto; padding: 1.25rem; }
   }
 }
 

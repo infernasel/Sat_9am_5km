@@ -37,45 +37,53 @@
     <div class="row g-4">
       <div class="col-md-3">
         <div class="card h-100 border-0 shadow-sm position-relative">
-          <div class="card-body text-center">
-            <i class="fas fa-user-plus fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title">
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-user-plus fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-2">
               <%= link_to t('.how_it_works.registration.title'), 'https://t.me/sat9am5kmbot', class: 'text-decoration-none stretched-link text-reset', target: '_blank', rel: 'noopener' %>
             </h3>
-            <p class="card-text"><%= t '.how_it_works.registration.description' %></p>
+            <p class="card-text text-muted mt-2"><%= t '.how_it_works.registration.description' %></p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card h-100 border-0 shadow-sm position-relative">
-          <div class="card-body text-center">
-            <i class="fas fa-map-marker-alt fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title">
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-2">
               <%= link_to t('.how_it_works.choose_run.title'), events_path, class: 'text-decoration-none stretched-link text-reset' %>
             </h3>
-            <p class="card-text"><%= t '.how_it_works.choose_run.description' %></p>
+            <p class="card-text text-muted mt-2"><%= t '.how_it_works.choose_run.description' %></p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card h-100 border-0 shadow-sm position-relative">
-          <div class="card-body text-center">
-            <i class="fas fa-calendar-check fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title">
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-calendar-check fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-2">
               <%= link_to t('.how_it_works.come_saturday.title'), page_path(page: 'rules'), class: 'text-decoration-none stretched-link text-reset' %>
             </h3>
-            <p class="card-text"><%= t '.how_it_works.come_saturday.description' %></p>
+            <p class="card-text text-muted mt-2"><%= t '.how_it_works.come_saturday.description' %></p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card h-100 border-0 shadow-sm position-relative">
-          <div class="card-body text-center">
-            <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title">
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-chart-line fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-2">
               <%= link_to t('.how_it_works.track_progress.title'), ratings_path, class: 'text-decoration-none stretched-link text-reset' %>
             </h3>
-            <p class="card-text"><%= t '.how_it_works.track_progress.description' %></p>
+            <p class="card-text text-muted mt-2"><%= t '.how_it_works.track_progress.description' %></p>
           </div>
         </div>
       </div>
@@ -143,28 +151,34 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <i class="fas fa-users fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title"><%= t '.why_s95.for_everyone.title' %></h3>
-            <p class="card-text"><%= t '.why_s95.for_everyone.description' %></p>
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-users fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-3"><%= t '.why_s95.for_everyone.title' %></h3>
+            <p class="card-text mt-2 px-3"><%= t '.why_s95.for_everyone.description' %></p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <i class="fas fa-comments fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title"><%= t '.why_s95.community.title' %></h3>
-            <p class="card-text"><%= t '.why_s95.community.description' %></p>
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-comments fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-3"><%= t '.why_s95.community.title' %></h3>
+            <p class="card-text mt-2 px-3"><%= t '.why_s95.community.description' %></p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <i class="fas fa-gift fa-3x mb-3 text-primary"></i>
-            <h3 class="h5 card-title"><%= t '.why_s95.free.title' %></h3>
-            <p class="card-text"><%= t '.why_s95.free.description' %></p>
+          <div class="card-body text-center p-4">
+            <span class="icon-circle mb-3 d-inline-flex align-items-center justify-content-center">
+              <i class="fas fa-gift fa-2x"></i>
+            </span>
+            <h3 class="h5 card-title mt-3"><%= t '.why_s95.free.title' %></h3>
+            <p class="card-text mt-2 px-3"><%= t '.why_s95.free.description' %></p>
           </div>
         </div>
       </div>
